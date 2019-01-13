@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18.9</title>
+</head>
+<body>
+<!-- 全局组件-->
+<div id="app">
+    <alert-global></alert-global>
+</div>
+
+<!-- 局部组件 -->
+<div id="seg1">
+    <alert-local></alert-local>
+</div>
+<div id="seg2">
+    <alert-global></alert-global>
+    <alert-local></alert-local>
+</div>
+<script src="../lib/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
